@@ -1,3 +1,5 @@
 services:
   nginx: 
     image: nginx:alpine
+    expose:
+      - 80
